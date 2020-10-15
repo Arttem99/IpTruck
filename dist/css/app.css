@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 50px #ff9c42;
+}
+
+.money {
+  font-family: Goose;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-1-5 {
+  margin-bottom: 15px;
+}
+
+.mt-1-5 {
+  margin-top: 15px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.headingBlocks {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.headingBlocks h1 {
+  font-size: 60px;
+  font-family: "Goose";
+}
+
+@media screen and (max-width: 425px) {
+  .headingBlocks h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .headingBlocks h1 {
+    font-size: 40px;
+  }
+}
+
+@font-face {
+  font-family: "font3";
+  src: url(/fonts/mr_CountryhouseG.ttf?7a5cbcdd3a952a372e21eaeb4ca329d0);
+  src: url(/fonts/mr_CountryhouseG.ttf?7a5cbcdd3a952a372e21eaeb4ca329d0) format("truetype");
+}
+.info-dost {
+  font-family: Goose;
+}
+
