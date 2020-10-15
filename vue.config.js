@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: 'vue-ip-truck'
+    publicPath: '/IpTruck/'
 }
